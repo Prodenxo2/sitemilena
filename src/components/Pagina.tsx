@@ -117,7 +117,7 @@ export default function Pagina() {
                 </div>
               </div>
               <div className="video-moldura">
-                <video src={video} controls playsInline preload="metadata" muted>
+                <video src={`${video}#t=0.1`} controls playsInline preload="metadata" muted>
                   Seu navegador não conseguiu abrir o vídeo.
                 </video>
               </div>
